@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+    background-color: lightgray;
+    background-image: url("igen.jpg");
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    background-color: burlywood;
+}
+
+h1 {
+    margin: 0px;
+}
+
+main {
+    background-color:bisque; 
+    min-height: 580px;
+    box-sizing: border-box;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    text-align: center;
+    border: solid 2px black;
+    box-shadow: 10px 10px 10px;
+
+}
+
+main form input[type=text]{
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 40px; 
+    width: 250px;
+}
+
+main form input[type=text]::placeholder{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#meg {
+    height: 100px ;
+}
+
+main form input[type=text]:placeholder-shown{
+    color: blue;
+}
+
+main form input[type=submit]{
+    border-radius: 5px;
+}
+
+footer {
+    width: 100%;
+    height: 20px;
+    position: fixed;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    text-align: right;
+}
